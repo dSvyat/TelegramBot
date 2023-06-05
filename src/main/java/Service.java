@@ -78,7 +78,6 @@ public class Service {
      *General method body and construction is quite similar to chatGPT method, the only difference is how RequestBody being created
      */
     public String whisperAI(File file) {
-        String apiKey = ""//replace with your API;
         String answer;
         String model = "whisper-1";
 
